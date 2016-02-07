@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="enabledNotification"
+        android:defaultValue="true"
+        android:summary="Выводить уведомления, когда приходят новые сообщения"
+        android:title="Уведомления"
+        />
+    <CheckBoxPreference
+        android:key="enabledVibration"
+android:summary="Телефон будет издавать вибрацию, когда приходят новые сообщения"
+        android:defaultValue="true"
+        android:title="Вибрация"
+        />
+    <CheckBoxPreference
+        android:key="enabledSound"
+        android:summary="Телефон будет издавать звук, когда приходят новые сообщения"
+        android:defaultValue="true"
+        android:title="Звук"
+        />
+
+</PreferenceScreen>
